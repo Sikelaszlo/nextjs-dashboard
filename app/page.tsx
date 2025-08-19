@@ -1,7 +1,7 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import stilusok from 'app/ui';
+import styles from '@/app/ui/home.module.css';
 
 export default function Page() {
   return (
@@ -19,8 +19,8 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
-          <p className={stilusok.shape}>
-            This is highlighted style.
+          <p className={styles.valami}>
+            This is a highlighted style.
           </p>
           <Link
             href="/login"
